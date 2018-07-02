@@ -80,6 +80,10 @@
         "source": "C:\\Users\\q\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-26.0.0-alpha1.aar\\b0f20e10c1e210c464329b4b71194363\\res\\drawable-hdpi-v4\\ic_dialog_close_dark.png"
     },
     {
+        "merged": "C:\\Users\\q\\AndroidStudioProjects\\OnlyGetContactsList\\app\\build\\intermediates\\res\\merged\\debug\\layout_content_main.xml.flat",
+        "source": "C:\\Users\\q\\AndroidStudioProjects\\OnlyGetContactsList\\app\\src\\main\\res\\layout\\content_main.xml"
+    },
+    {
         "merged": "C:\\Users\\q\\AndroidStudioProjects\\OnlyGetContactsList\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_ic_mr_button_connected_22_dark.png.flat",
         "source": "C:\\Users\\q\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-26.0.0-alpha1.aar\\b0f20e10c1e210c464329b4b71194363\\res\\drawable-xhdpi-v4\\ic_mr_button_connected_22_dark.png"
     },
