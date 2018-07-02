@@ -1,3 +1,4 @@
+/*
 package com.example.q.contactpractice;
 
 import android.app.Activity;
@@ -28,7 +29,6 @@ import android.widget.ListView;
 public abstract class BaseActivity extends AppCompatActivity implements BottomNavigationView.OnNavigationItemSelectedListener {
 
     protected BottomNavigationView navigationView;
-    static final String[] LIST_MENU = {"LIST1", "LIST2", "LIST3"} ;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -83,3 +83,4 @@ public abstract class BaseActivity extends AppCompatActivity implements BottomNa
     abstract int getNavigationMenuItemId();
 
 }
+*/

@@ -1,62 +1,172 @@
 package com.example.q.contactpractice;
 
-import android.app.Activity;
-import android.app.ListActivity;
+import android.Manifest;
 import android.content.Intent;
+import android.content.pm.PackageManager;
+import android.database.Cursor;
 import android.os.Bundle;
+import android.provider.ContactsContract;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
+import android.support.v4.app.ActivityCompat;
+import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
+import android.widget.ListView;
+import android.widget.SimpleAdapter;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.List;
-import android.content.ContentResolver;
-import android.content.Context;
-import android.database.Cursor;
-import android.graphics.Bitmap;
-import android.provider.ContactsContract;
-import android.provider.ContactsContract.CommonDataKinds.Phone;
-import android.util.Log;
-import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
-import android.widget.SimpleAdapter;
-import android.widget.ListView;
+import java.util.Map;
 
-public class MainActivity extends BaseActivity {
-    private ArrayList<HashMap<String,String>> Data = new ArrayList<HashMap<String, String>>();
-    private HashMap<String,String> InputData1 = new HashMap<>();
-    private HashMap<String,String> InputData2 = new HashMap<>();
-    private ListView listView;
+public class MainActivity extends AppCompatActivity implements BottomNavigationView.OnNavigationItemSelectedListener{
+
+    protected BottomNavigationView navigationView;
+
+
+    private ArrayList<Map<String, String>> dataList;
+    private ListView mListview;
+    static final int MY_PERMISSIONS_REQUEST_READ_CONTACTS = 1;
+
+
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        listView =(ListView)findViewById(R.id.listview);
 
-        //데이터 초기화
-        InputData1.put("school","서울대");
-        InputData1.put("name","유혁");
-        Data.add(InputData1);
+        mListview = (ListView) findViewById(R.id.listview);
 
-        InputData2.put("school","연세대");
-        InputData2.put("name","유재석");
-        Data.add(InputData2);
+        int permissionCheck = ContextCompat.checkSelfPermission(this, Manifest.permission.READ_CONTACTS);
 
-        //simpleAdapter 생성
-        SimpleAdapter simpleAdapter = new SimpleAdapter(this,Data,android.R.layout.simple_list_item_2,new String[]{"school","name"},new int[]{android.R.id.text1,android.R.id.text2});
-        listView.setAdapter(simpleAdapter);
+        if(permissionCheck== PackageManager.PERMISSION_DENIED){
+            // 권한 없음, 달라고 요청
+            ActivityCompat.requestPermissions(this,
+                    new String[]{Manifest.permission.READ_CONTACTS},
+                    MY_PERMISSIONS_REQUEST_READ_CONTACTS);
+        }
+
+        if(permissionCheck== PackageManager.PERMISSION_DENIED){
+            // 권한 없음. 핸들링
+
+            Toast.makeText(this, "no_permissions. Click the button below to reload", Toast.LENGTH_SHORT).show();
+
+        }
+        else{
+            // 권한 있음
+            contact();
+        }
+
+        navigationView = (BottomNavigationView) findViewById(R.id.navigation);
+        navigationView.setOnNavigationItemSelectedListener(this);
     }
 
 
     @Override
+    protected void onStart() {
+        super.onStart();
+        updateNavigationBarState();
+    }
+
+    // Remove inter-activity transition to avoid screen tossing on tapping bottom navigation items
+    @Override
+    public void onPause() {
+        super.onPause();
+        overridePendingTransition(0, 0);
+    }
+
+    @Override
+    public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+        navigationView.postDelayed(() -> {
+            int itemId = item.getItemId();
+            if (itemId == R.id.navigation_contact) {
+                startActivity(new Intent(this, MainActivity.class));
+                overridePendingTransition(R.anim.hold, R.anim.fade_in);
+            } else if (itemId == R.id.navigation_photos) {
+                startActivity(new Intent(this, MainActivity2.class));
+                overridePendingTransition(R.anim.hold, R.anim.fade_in);
+            } else if (itemId == R.id.navigation_alarm) {
+                startActivity(new Intent(this, MainActivity3.class));
+                overridePendingTransition(R.anim.hold, R.anim.fade_in);
+            }
+            finish();
+        }, 300);
+        return true;
+    }
+
+
+    public void contact(){
+        dataList = new ArrayList<Map<String, String>>();
+        Cursor c = getContentResolver().query(
+                ContactsContract.Contacts.CONTENT_URI,
+                null,
+                null,
+                null,
+                ContactsContract.Contacts.DISPLAY_NAME_PRIMARY + " asc");
+
+        while (c.moveToNext()) {
+            HashMap<String, String> map = new HashMap<String, String>();
+            // 연락처 id 값
+            String id = c.getString(c.getColumnIndex(ContactsContract.Contacts._ID));
+            // 연락처 대표 이름
+            String name = c.getString(c.getColumnIndex(ContactsContract.Contacts.DISPLAY_NAME_PRIMARY));
+            map.put("name", name);
+
+            // ID로 전화 정보 조회
+            Cursor phoneCursor = getContentResolver().query(
+                    ContactsContract.CommonDataKinds.Phone.CONTENT_URI,
+                    null,
+                    ContactsContract.CommonDataKinds.Phone.CONTACT_ID + " = " + id,
+                    null, null);
+
+            // 데이터가 있는 경우
+            if (phoneCursor.moveToFirst()) {
+                String number = phoneCursor.getString(phoneCursor.getColumnIndex(
+                        ContactsContract.CommonDataKinds.Phone.NUMBER));
+                map.put("phone", number);
+            }
+
+            phoneCursor.close();
+            dataList.add(map);
+        }// end while
+        c.close();
+
+
+        SimpleAdapter adapter = new SimpleAdapter(getApplicationContext(),
+                dataList,
+                android.R.layout.simple_list_item_2,
+                new String[]{"name", "phone"},
+                new int[]{android.R.id.text1, android.R.id.text2});
+        mListview.setAdapter(adapter);
+
+    }
+
+
+
+    private void updateNavigationBarState(){
+        int actionId = getNavigationMenuItemId();
+        selectBottomNavigationBarItem(actionId);
+    }
+
+    void selectBottomNavigationBarItem(int itemId) {
+        MenuItem item = navigationView.getMenu().findItem(itemId);
+        item.setChecked(true);
+    }
+/*
+    abstract int getContentViewId();
+
+    abstract int getNavigationMenuItemId();
+*/
+
+//    @Override
     int getContentViewId() {
         return R.layout.activity_main;
     }
 
-    @Override
+//    @Override
     int getNavigationMenuItemId() {
         return R.id.navigation_contact;
     }
