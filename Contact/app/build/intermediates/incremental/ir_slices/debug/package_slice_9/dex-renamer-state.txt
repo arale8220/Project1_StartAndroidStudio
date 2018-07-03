@@ -1,4 +1,4 @@
-#Tue Jul 03 18:00:40 KST 2018
-base.0=C\:\\Users\\q\\Documents\\GitHub\\Project1_StartAndroidStudio\\Contact\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\10
+#Wed Jul 04 00:13:04 KST 2018
+base.0=C\:\\Users\\q\\Documents\\GitHub\\Project1_StartAndroidStudio\\Contact\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\27
 path.0=classes.dex
 renamed.0=classes.dex

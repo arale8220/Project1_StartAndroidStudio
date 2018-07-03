@@ -9,8 +9,6 @@ import android.view.MenuItem;
 
 public class MainActivity3 extends AppCompatActivity implements BottomNavigationView.OnNavigationItemSelectedListener{
 
-
-
     protected BottomNavigationView navigationView;
 
     @Override
@@ -21,7 +19,6 @@ public class MainActivity3 extends AppCompatActivity implements BottomNavigation
         navigationView = (BottomNavigationView) findViewById(R.id.navigation);
         navigationView.setOnNavigationItemSelectedListener(this);
     }
-
 
     @Override
     protected void onStart() {
@@ -52,8 +49,6 @@ public class MainActivity3 extends AppCompatActivity implements BottomNavigation
         return true;
     }
 
-
-
     private void updateNavigationBarState(){
         int actionId = getNavigationMenuItemId();
         selectBottomNavigationBarItem(actionId);
@@ -63,7 +58,6 @@ public class MainActivity3 extends AppCompatActivity implements BottomNavigation
         MenuItem item = navigationView.getMenu().findItem(itemId);
         item.setChecked(true);
     }
-
 
     //@Override
     int getContentViewId() {
