@@ -24,14 +24,9 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
 
     protected BottomNavigationView navigationView;
 
-
     private ArrayList<Map<String, String>> dataList;
     private ListView mListview;
     static final int MY_PERMISSIONS_REQUEST_READ_CONTACTS = 1;
-
-
-
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,7 +34,13 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
         setContentView(R.layout.activity_main);
 
         mListview = (ListView) findViewById(R.id.listview);
+        checkPermission();
 
+        navigationView = (BottomNavigationView) findViewById(R.id.navigation);
+        navigationView.setOnNavigationItemSelectedListener(this);
+    }
+
+    private void checkPermission() {
         int permissionCheck = ContextCompat.checkSelfPermission(this, Manifest.permission.READ_CONTACTS);
 
         if(permissionCheck== PackageManager.PERMISSION_DENIED){
@@ -47,23 +48,30 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
             ActivityCompat.requestPermissions(this,
                     new String[]{Manifest.permission.READ_CONTACTS},
                     MY_PERMISSIONS_REQUEST_READ_CONTACTS);
-        }
-
-        if(permissionCheck== PackageManager.PERMISSION_DENIED){
-            // 권한 없음. 핸들링
-
-            Toast.makeText(this, "no_permissions. Click the button below to reload", Toast.LENGTH_SHORT).show();
-
-        }
-        else{
+        } else{
             // 권한 있음
             contact();
         }
-
-        navigationView = (BottomNavigationView) findViewById(R.id.navigation);
-        navigationView.setOnNavigationItemSelectedListener(this);
     }
 
+    @Override
+    public void onRequestPermissionsResult(int requestCode,
+                                           String permissions[], int[] grantResults) {
+        switch (requestCode) {
+            case MY_PERMISSIONS_REQUEST_READ_CONTACTS: {
+                // If request is cancelled, the result arrays are empty.
+                if (grantResults.length > 0
+                        && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+                    // permission was granted, yay! Do the contacts-related task you need to do.
+                    contact();
+                } else {
+                    // permission denied, boo! Disable the functionality that depends on this permission.
+                }
+                return;
+            }
+            // other 'case' lines to check for other permissions this app might request
+        }
+    }
 
     @Override
     protected void onStart() {

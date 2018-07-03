@@ -6,8 +6,8 @@
     density="xxhdpi"
     format="10"
     plugin-version="3.1.3"
-    timestamp="1530380355923"
-    token="2430358409359359548"
+    timestamp="1530611581064"
+    token="1704248681819300398"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
@@ -24,55 +24,19 @@
         duration="0" />
 
     <artifact
-        location="C:\Users\q\AndroidStudioProjects\Contact\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\q\Documents\GitHub\Project1_StartAndroidStudio\Contact\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\q\AndroidStudioProjects\Contact\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\q\AndroidStudioProjects\Contact\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\q\AndroidStudioProjects\Contact\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\q\AndroidStudioProjects\Contact\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\q\Documents\GitHub\Project1_StartAndroidStudio\Contact\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\q\AndroidStudioProjects\Contact\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\q\AndroidStudioProjects\Contact\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\q\Documents\GitHub\Project1_StartAndroidStudio\Contact\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\q\Documents\GitHub\Project1_StartAndroidStudio\Contact\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\q\AndroidStudioProjects\Contact\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
-        type="SPLIT" />
-    <artifact
         location="C:\Users\q\Documents\GitHub\Project1_StartAndroidStudio\Contact\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
         type="SPLIT" />
     <artifact
         location="C:\Users\q\Documents\GitHub\Project1_StartAndroidStudio\Contact\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Users\q\AndroidStudioProjects\Contact\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\q\AndroidStudioProjects\Contact\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+        location="C:\Users\q\Documents\GitHub\Project1_StartAndroidStudio\Contact\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
         type="SPLIT" />
     <artifact
         location="C:\Users\q\Documents\GitHub\Project1_StartAndroidStudio\Contact\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\q\Documents\GitHub\Project1_StartAndroidStudio\Contact\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
         type="SPLIT" />
     <artifact
         location="C:\Users\q\Documents\GitHub\Project1_StartAndroidStudio\Contact\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
@@ -81,7 +45,7 @@
         location="C:\Users\q\Documents\GitHub\Project1_StartAndroidStudio\Contact\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Users\q\AndroidStudioProjects\Contact\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+        location="C:\Users\q\Documents\GitHub\Project1_StartAndroidStudio\Contact\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
         type="SPLIT" />
     <artifact
         location="C:\Users\q\Documents\GitHub\Project1_StartAndroidStudio\Contact\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
@@ -93,49 +57,16 @@
         location="C:\Users\q\Documents\GitHub\Project1_StartAndroidStudio\Contact\app\build\intermediates\resources\instant-run\debug\resources-debug.apk"
         type="SPLIT" />
     <artifact
+        location="C:\Users\q\Documents\GitHub\Project1_StartAndroidStudio\Contact\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+        type="SPLIT" />
+    <artifact
         location="C:\Users\q\Documents\GitHub\Project1_StartAndroidStudio\Contact\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
         type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1530380355923"
+        timestamp="1530611581064"
         verifier="FULL_BUILD_REQUESTED" >
-        <artifact
-            location="C:\Users\q\AndroidStudioProjects\Contact\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\q\Documents\GitHub\Project1_StartAndroidStudio\Contact\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\q\AndroidStudioProjects\Contact\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\q\AndroidStudioProjects\Contact\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\q\AndroidStudioProjects\Contact\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\q\AndroidStudioProjects\Contact\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\q\Documents\GitHub\Project1_StartAndroidStudio\Contact\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\q\AndroidStudioProjects\Contact\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\q\AndroidStudioProjects\Contact\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\q\Documents\GitHub\Project1_StartAndroidStudio\Contact\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\q\Documents\GitHub\Project1_StartAndroidStudio\Contact\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\q\AndroidStudioProjects\Contact\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
-            type="SPLIT" />
         <artifact
             location="C:\Users\q\Documents\GitHub\Project1_StartAndroidStudio\Contact\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
             type="SPLIT" />
@@ -143,13 +74,13 @@
             location="C:\Users\q\Documents\GitHub\Project1_StartAndroidStudio\Contact\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\q\AndroidStudioProjects\Contact\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\q\AndroidStudioProjects\Contact\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            location="C:\Users\q\Documents\GitHub\Project1_StartAndroidStudio\Contact\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\q\Documents\GitHub\Project1_StartAndroidStudio\Contact\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\q\Documents\GitHub\Project1_StartAndroidStudio\Contact\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\q\Documents\GitHub\Project1_StartAndroidStudio\Contact\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
@@ -158,7 +89,7 @@
             location="C:\Users\q\Documents\GitHub\Project1_StartAndroidStudio\Contact\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\q\AndroidStudioProjects\Contact\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+            location="C:\Users\q\Documents\GitHub\Project1_StartAndroidStudio\Contact\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\q\Documents\GitHub\Project1_StartAndroidStudio\Contact\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
@@ -168,6 +99,9 @@
             type="SPLIT" />
         <artifact
             location="C:\Users\q\Documents\GitHub\Project1_StartAndroidStudio\Contact\app\build\intermediates\resources\instant-run\debug\resources-debug.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\q\Documents\GitHub\Project1_StartAndroidStudio\Contact\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\q\Documents\GitHub\Project1_StartAndroidStudio\Contact\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
