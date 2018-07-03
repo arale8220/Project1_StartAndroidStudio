@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\q\\Desktop\\Contact\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "C:\\Users\\q\\Documents\\GitHub\\Project1_StartAndroidStudio\\Contact\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
                 {
                     "source": "C:\\Users\\q\\.gradle\\caches\\transforms-1\\files-1.1\\constraint-layout-1.1.2.aar\\353b9c0dcd4b0f18b6521f35bfd60798\\res\\values\\values.xml",
@@ -78,20 +78,39 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\q\\Desktop\\Contact\\app\\src\\main\\res\\values\\strings.xml",
+                    "source": "C:\\Users\\q\\Documents\\GitHub\\Project1_StartAndroidStudio\\Contact\\app\\src\\main\\res\\values\\styles.xml",
                     "from": {
-                        "startLines": "1,2",
-                        "startColumns": "4,4",
-                        "startOffsets": "17,83",
-                        "endColumns": "64,135",
-                        "endOffsets": "77,214"
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "57",
+                        "endLines": "8",
+                        "endColumns": "12",
+                        "endOffsets": "376"
                     },
                     "to": {
-                        "startLines": "739,764",
-                        "startColumns": "4,4",
-                        "startOffsets": "63295,65101",
-                        "endColumns": "64,135",
-                        "endOffsets": "63355,65232"
+                        "startLines": "780",
+                        "startColumns": "4",
+                        "startOffsets": "66815",
+                        "endLines": "785",
+                        "endColumns": "12",
+                        "endOffsets": "67129"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\q\\Documents\\GitHub\\Project1_StartAndroidStudio\\Contact\\app\\src\\main\\res\\values\\colors.xml",
+                    "from": {
+                        "startLines": "4,2,3",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "157,57,105",
+                        "endColumns": "45,46,50",
+                        "endOffsets": "198,99,151"
+                    },
+                    "to": {
+                        "startLines": "165,166,167",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "8520,8566,8613",
+                        "endColumns": "45,46,50",
+                        "endOffsets": "8561,8608,8659"
                     }
                 },
                 {
@@ -131,39 +150,20 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\q\\Desktop\\Contact\\app\\src\\main\\res\\values\\colors.xml",
+                    "source": "C:\\Users\\q\\Documents\\GitHub\\Project1_StartAndroidStudio\\Contact\\app\\src\\main\\res\\values\\strings.xml",
                     "from": {
-                        "startLines": "4,2,3",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "157,57,105",
-                        "endColumns": "45,46,50",
-                        "endOffsets": "198,99,151"
+                        "startLines": "1,2",
+                        "startColumns": "4,4",
+                        "startOffsets": "17,83",
+                        "endColumns": "64,135",
+                        "endOffsets": "77,214"
                     },
                     "to": {
-                        "startLines": "165,166,167",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "8520,8566,8613",
-                        "endColumns": "45,46,50",
-                        "endOffsets": "8561,8608,8659"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\q\\Desktop\\Contact\\app\\src\\main\\res\\values\\styles.xml",
-                    "from": {
-                        "startLines": "3",
-                        "startColumns": "4",
-                        "startOffsets": "57",
-                        "endLines": "8",
-                        "endColumns": "12",
-                        "endOffsets": "376"
-                    },
-                    "to": {
-                        "startLines": "780",
-                        "startColumns": "4",
-                        "startOffsets": "66815",
-                        "endLines": "785",
-                        "endColumns": "12",
-                        "endOffsets": "67129"
+                        "startLines": "739,764",
+                        "startColumns": "4,4",
+                        "startOffsets": "63295,65101",
+                        "endColumns": "64,135",
+                        "endOffsets": "63355,65232"
                     }
                 }
             ]
