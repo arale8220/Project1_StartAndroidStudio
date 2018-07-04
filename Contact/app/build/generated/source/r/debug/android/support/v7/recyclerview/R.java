@@ -8,29 +8,29 @@ package android.support.v7.recyclerview;
 
 public final class R {
     public static final class attr {
-        public static final int fastScrollEnabled = 0x7f03008a;
-        public static final int fastScrollHorizontalThumbDrawable = 0x7f03008b;
-        public static final int fastScrollHorizontalTrackDrawable = 0x7f03008c;
-        public static final int fastScrollVerticalThumbDrawable = 0x7f03008d;
-        public static final int fastScrollVerticalTrackDrawable = 0x7f03008e;
-        public static final int layoutManager = 0x7f0300a8;
-        public static final int reverseLayout = 0x7f030120;
-        public static final int spanCount = 0x7f03012f;
-        public static final int stackFromEnd = 0x7f030135;
+        public static final int fastScrollEnabled = 0x7f030095;
+        public static final int fastScrollHorizontalThumbDrawable = 0x7f030096;
+        public static final int fastScrollHorizontalTrackDrawable = 0x7f030097;
+        public static final int fastScrollVerticalThumbDrawable = 0x7f030098;
+        public static final int fastScrollVerticalTrackDrawable = 0x7f030099;
+        public static final int layoutManager = 0x7f0300c2;
+        public static final int reverseLayout = 0x7f03013c;
+        public static final int spanCount = 0x7f03014c;
+        public static final int stackFromEnd = 0x7f030152;
     }
     public static final class dimen {
-        public static final int fastscroll_default_thickness = 0x7f060072;
-        public static final int fastscroll_margin = 0x7f060073;
-        public static final int fastscroll_minimum_range = 0x7f060074;
-        public static final int item_touch_helper_max_drag_scroll_per_frame = 0x7f06007c;
-        public static final int item_touch_helper_swipe_escape_max_velocity = 0x7f06007d;
-        public static final int item_touch_helper_swipe_escape_velocity = 0x7f06007e;
+        public static final int fastscroll_default_thickness = 0x7f060077;
+        public static final int fastscroll_margin = 0x7f060078;
+        public static final int fastscroll_minimum_range = 0x7f060079;
+        public static final int item_touch_helper_max_drag_scroll_per_frame = 0x7f060081;
+        public static final int item_touch_helper_swipe_escape_max_velocity = 0x7f060082;
+        public static final int item_touch_helper_swipe_escape_velocity = 0x7f060083;
     }
     public static final class id {
-        public static final int item_touch_helper_previous_elevation = 0x7f080050;
+        public static final int item_touch_helper_previous_elevation = 0x7f080059;
     }
     public static final class styleable {
-        public static final int[] RecyclerView = { 0x010100c4, 0x010100f1, 0x7f03008a, 0x7f03008b, 0x7f03008c, 0x7f03008d, 0x7f03008e, 0x7f0300a8, 0x7f030120, 0x7f03012f, 0x7f030135 };
+        public static final int[] RecyclerView = { 0x010100c4, 0x010100f1, 0x7f030095, 0x7f030096, 0x7f030097, 0x7f030098, 0x7f030099, 0x7f0300c2, 0x7f03013c, 0x7f03014c, 0x7f030152 };
         public static final int RecyclerView_android_orientation = 0;
         public static final int RecyclerView_android_descendantFocusability = 1;
         public static final int RecyclerView_fastScrollEnabled = 2;
