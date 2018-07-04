@@ -1824,12 +1824,12 @@
         "source": "C:\\Users\\q\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-26.0.0-alpha1.aar\\b0f20e10c1e210c464329b4b71194363\\res\\drawable-xhdpi-v4\\ic_vol_type_tv_light.png"
     },
     {
-        "merged": "C:\\Users\\q\\Documents\\GitHub\\Project1_StartAndroidStudio\\Contact\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_ic_mr_button_connected_01_dark.png.flat",
-        "source": "C:\\Users\\q\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-26.0.0-alpha1.aar\\b0f20e10c1e210c464329b4b71194363\\res\\drawable-xhdpi-v4\\ic_mr_button_connected_01_dark.png"
-    },
-    {
         "merged": "C:\\Users\\q\\Documents\\GitHub\\Project1_StartAndroidStudio\\Contact\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_ic_group_collapse_14.png.flat",
         "source": "C:\\Users\\q\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-26.0.0-alpha1.aar\\b0f20e10c1e210c464329b4b71194363\\res\\drawable-xxxhdpi-v4\\ic_group_collapse_14.png"
+    },
+    {
+        "merged": "C:\\Users\\q\\Documents\\GitHub\\Project1_StartAndroidStudio\\Contact\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_ic_mr_button_connected_01_dark.png.flat",
+        "source": "C:\\Users\\q\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-26.0.0-alpha1.aar\\b0f20e10c1e210c464329b4b71194363\\res\\drawable-xhdpi-v4\\ic_mr_button_connected_01_dark.png"
     },
     {
         "merged": "C:\\Users\\q\\Documents\\GitHub\\Project1_StartAndroidStudio\\Contact\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_ic_mr_button_connected_05_dark.png.flat",
