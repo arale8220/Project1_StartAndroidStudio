@@ -11,6 +11,7 @@ import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
 import android.support.v4.app.ActivityCompat;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.MenuItem;
 import android.widget.ListView;
 import android.widget.SimpleAdapter;
@@ -38,7 +39,7 @@ import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
 
-public abstract class MainActivity3 extends AppCompatActivity implements BottomNavigationView.OnNavigationItemSelectedListener/*, GoogleMap.OnMarkerClickListener*/{
+public class MainActivity3 extends AppCompatActivity implements BottomNavigationView.OnNavigationItemSelectedListener/*, GoogleMap.OnMarkerClickListener*/{
 
     protected BottomNavigationView navigationView;
 
@@ -92,6 +93,7 @@ public abstract class MainActivity3 extends AppCompatActivity implements BottomN
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_alarm);
+        Log.i("hihihi","here");
 
 
         //before showing map, permission check
@@ -101,9 +103,12 @@ public abstract class MainActivity3 extends AppCompatActivity implements BottomN
             }
         }
 
+        Log.i("hihihi","here");
         //맵뷰 상태정보를 번들에 넣었음
         Bundle MapViewBundle = null;
+        Log.i("hihihi","here");
         if (savedInstanceState != null) MapViewBundle = savedInstanceState.getBundle(TAG);//액티비티의 상태가 저장되어 있는 경우
+        Log.i("hihihi","here");
 
         mapView = (MapView) findViewById(R.id.map);
         mapView.onCreate(MapViewBundle);

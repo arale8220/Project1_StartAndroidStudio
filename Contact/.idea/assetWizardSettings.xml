@@ -33,8 +33,7 @@
                                   </option>
                                   <option name="values">
                                     <map>
-                                      <entry key="outputName" value="ic_cafe" />
-                                      <entry key="theme" value="CUSTOM" />
+                                      <entry key="outputName" value="ic_action_alarm" />
                                       <entry key="themeColor" value="3d1a0a" />
                                     </map>
                                   </option>
