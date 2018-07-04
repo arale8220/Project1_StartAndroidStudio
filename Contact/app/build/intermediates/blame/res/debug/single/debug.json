@@ -40,6 +40,10 @@
         "source": "C:\\Users\\q\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-alpha1.aar\\c872dedd79dd84e0d73d03bab08ab405\\res\\drawable-xhdpi-v4\\notification_bg_low_normal.9.png"
     },
     {
+        "merged": "C:\\Users\\q\\Documents\\GitHub\\Project1_StartAndroidStudio\\Contact\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\q\\Documents\\GitHub\\Project1_StartAndroidStudio\\Contact\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_foreground.png"
+    },
+    {
         "merged": "C:\\Users\\q\\Documents\\GitHub\\Project1_StartAndroidStudio\\Contact\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
         "source": "C:\\Users\\q\\Documents\\GitHub\\Project1_StartAndroidStudio\\Contact\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
     },
@@ -192,6 +196,10 @@
         "source": "C:\\Users\\q\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-26.0.0-alpha1.aar\\b0f20e10c1e210c464329b4b71194363\\res\\drawable-xhdpi-v4\\ic_mr_button_connected_21_light.png"
     },
     {
+        "merged": "C:\\Users\\q\\Documents\\GitHub\\Project1_StartAndroidStudio\\Contact\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\q\\Documents\\GitHub\\Project1_StartAndroidStudio\\Contact\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_foreground.png"
+    },
+    {
         "merged": "C:\\Users\\q\\Documents\\GitHub\\Project1_StartAndroidStudio\\Contact\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_ic_mr_button_connecting_03_dark.png.flat",
         "source": "C:\\Users\\q\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-26.0.0-alpha1.aar\\b0f20e10c1e210c464329b4b71194363\\res\\drawable-xhdpi-v4\\ic_mr_button_connecting_03_dark.png"
     },
@@ -286,6 +294,10 @@
     {
         "merged": "C:\\Users\\q\\Documents\\GitHub\\Project1_StartAndroidStudio\\Contact\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_ic_dialog_close_dark.png.flat",
         "source": "C:\\Users\\q\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-26.0.0-alpha1.aar\\b0f20e10c1e210c464329b4b71194363\\res\\drawable-hdpi-v4\\ic_dialog_close_dark.png"
+    },
+    {
+        "merged": "C:\\Users\\q\\Documents\\GitHub\\Project1_StartAndroidStudio\\Contact\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\q\\Documents\\GitHub\\Project1_StartAndroidStudio\\Contact\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_foreground.png"
     },
     {
         "merged": "C:\\Users\\q\\Documents\\GitHub\\Project1_StartAndroidStudio\\Contact\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_media_custom.xml.flat",
@@ -1168,6 +1180,10 @@
         "source": "C:\\Users\\q\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-alpha1.aar\\c872dedd79dd84e0d73d03bab08ab405\\res\\drawable-hdpi-v4\\notification_bg_normal_pressed.9.png"
     },
     {
+        "merged": "C:\\Users\\q\\Documents\\GitHub\\Project1_StartAndroidStudio\\Contact\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\q\\Documents\\GitHub\\Project1_StartAndroidStudio\\Contact\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_foreground.png"
+    },
+    {
         "merged": "C:\\Users\\q\\Documents\\GitHub\\Project1_StartAndroidStudio\\Contact\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
         "source": "C:\\Users\\q\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-alpha1.aar\\c872dedd79dd84e0d73d03bab08ab405\\res\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
     },
@@ -1350,6 +1366,10 @@
     {
         "merged": "C:\\Users\\q\\Documents\\GitHub\\Project1_StartAndroidStudio\\Contact\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_ic_mr_button_disabled_dark.png.flat",
         "source": "C:\\Users\\q\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-26.0.0-alpha1.aar\\b0f20e10c1e210c464329b4b71194363\\res\\drawable-mdpi-v4\\ic_mr_button_disabled_dark.png"
+    },
+    {
+        "merged": "C:\\Users\\q\\Documents\\GitHub\\Project1_StartAndroidStudio\\Contact\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\q\\Documents\\GitHub\\Project1_StartAndroidStudio\\Contact\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
     },
     {
         "merged": "C:\\Users\\q\\Documents\\GitHub\\Project1_StartAndroidStudio\\Contact\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_ic_mr_button_connected_09_dark.png.flat",
