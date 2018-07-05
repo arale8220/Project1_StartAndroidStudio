@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\q\Documents\GitHub\Project1_StartAndroidStudio\Contact\app\src\main\AndroidManifest.xml:2:1-55:12
-INJECTED from C:\Users\q\Documents\GitHub\Project1_StartAndroidStudio\Contact\app\src\main\AndroidManifest.xml:2:1-55:12
-INJECTED from C:\Users\q\Documents\GitHub\Project1_StartAndroidStudio\Contact\app\src\main\AndroidManifest.xml:2:1-55:12
-INJECTED from C:\Users\q\Documents\GitHub\Project1_StartAndroidStudio\Contact\app\src\main\AndroidManifest.xml:2:1-55:12
+ADDED from C:\Users\q\Desktop\Contact\app\src\main\AndroidManifest.xml:2:1-55:12
+INJECTED from C:\Users\q\Desktop\Contact\app\src\main\AndroidManifest.xml:2:1-55:12
+INJECTED from C:\Users\q\Desktop\Contact\app\src\main\AndroidManifest.xml:2:1-55:12
+INJECTED from C:\Users\q\Desktop\Contact\app\src\main\AndroidManifest.xml:2:1-55:12
 MERGED from [com.android.support:mediarouter-v7:26.0.0-alpha1] C:\Users\q\.gradle\caches\transforms-1\files-1.1\mediarouter-v7-26.0.0-alpha1.aar\b0f20e10c1e210c464329b4b71194363\AndroidManifest.xml:17:1-28:12
 MERGED from [com.android.support:design:26.0.0-alpha1] C:\Users\q\.gradle\caches\transforms-1\files-1.1\design-26.0.0-alpha1.aar\be35380121278395d8220464a5ae76fb\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\q\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0-alpha1.aar\c872dedd79dd84e0d73d03bab08ab405\AndroidManifest.xml:17:1-31:12
@@ -27,85 +27,85 @@ MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\q\.gradle\c
 MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\q\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\7773f30e0ea3a4e092c4f64a0204b4ac\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-compat:26.1.0] C:\Users\q\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\48a9fc1fae4d094961194006950f8f64\AndroidManifest.xml:17:1-31:12
 MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\q\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\70f7663ed421746fb168a9b3ae6649c7\AndroidManifest.xml:17:1-30:12
-INJECTED from C:\Users\q\Documents\GitHub\Project1_StartAndroidStudio\Contact\app\src\main\AndroidManifest.xml:2:1-55:12
-INJECTED from C:\Users\q\Documents\GitHub\Project1_StartAndroidStudio\Contact\app\src\main\AndroidManifest.xml:2:1-55:12
-INJECTED from C:\Users\q\Documents\GitHub\Project1_StartAndroidStudio\Contact\app\src\main\AndroidManifest.xml:2:1-55:12
+INJECTED from C:\Users\q\Desktop\Contact\app\src\main\AndroidManifest.xml:2:1-55:12
+INJECTED from C:\Users\q\Desktop\Contact\app\src\main\AndroidManifest.xml:2:1-55:12
+INJECTED from C:\Users\q\Desktop\Contact\app\src\main\AndroidManifest.xml:2:1-55:12
 	package
-		ADDED from C:\Users\q\Documents\GitHub\Project1_StartAndroidStudio\Contact\app\src\main\AndroidManifest.xml:3:5-44
-		INJECTED from C:\Users\q\Documents\GitHub\Project1_StartAndroidStudio\Contact\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\q\Documents\GitHub\Project1_StartAndroidStudio\Contact\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\q\Desktop\Contact\app\src\main\AndroidManifest.xml:3:5-44
+		INJECTED from C:\Users\q\Desktop\Contact\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\q\Desktop\Contact\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\q\Documents\GitHub\Project1_StartAndroidStudio\Contact\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\q\Documents\GitHub\Project1_StartAndroidStudio\Contact\app\src\main\AndroidManifest.xml:2:1-55:12
-		INJECTED from C:\Users\q\Documents\GitHub\Project1_StartAndroidStudio\Contact\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\q\Desktop\Contact\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\q\Desktop\Contact\app\src\main\AndroidManifest.xml:2:1-55:12
+		INJECTED from C:\Users\q\Desktop\Contact\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from C:\Users\q\Documents\GitHub\Project1_StartAndroidStudio\Contact\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\q\Documents\GitHub\Project1_StartAndroidStudio\Contact\app\src\main\AndroidManifest.xml:2:1-55:12
-		INJECTED from C:\Users\q\Documents\GitHub\Project1_StartAndroidStudio\Contact\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\q\Desktop\Contact\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\q\Desktop\Contact\app\src\main\AndroidManifest.xml:2:1-55:12
+		INJECTED from C:\Users\q\Desktop\Contact\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\q\Documents\GitHub\Project1_StartAndroidStudio\Contact\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\q\Desktop\Contact\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.READ_CALL_LOG
-ADDED from C:\Users\q\Documents\GitHub\Project1_StartAndroidStudio\Contact\app\src\main\AndroidManifest.xml:5:5-72
+ADDED from C:\Users\q\Desktop\Contact\app\src\main\AndroidManifest.xml:5:5-72
 	android:name
-		ADDED from C:\Users\q\Documents\GitHub\Project1_StartAndroidStudio\Contact\app\src\main\AndroidManifest.xml:5:22-69
+		ADDED from C:\Users\q\Desktop\Contact\app\src\main\AndroidManifest.xml:5:22-69
 uses-permission#android.permission.READ_CONTACTS
-ADDED from C:\Users\q\Documents\GitHub\Project1_StartAndroidStudio\Contact\app\src\main\AndroidManifest.xml:6:5-72
+ADDED from C:\Users\q\Desktop\Contact\app\src\main\AndroidManifest.xml:6:5-72
 	android:name
-		ADDED from C:\Users\q\Documents\GitHub\Project1_StartAndroidStudio\Contact\app\src\main\AndroidManifest.xml:6:22-69
+		ADDED from C:\Users\q\Desktop\Contact\app\src\main\AndroidManifest.xml:6:22-69
 uses-permission#android.permission.WRITE_CONTACTS
-ADDED from C:\Users\q\Documents\GitHub\Project1_StartAndroidStudio\Contact\app\src\main\AndroidManifest.xml:7:5-73
+ADDED from C:\Users\q\Desktop\Contact\app\src\main\AndroidManifest.xml:7:5-73
 	android:name
-		ADDED from C:\Users\q\Documents\GitHub\Project1_StartAndroidStudio\Contact\app\src\main\AndroidManifest.xml:7:22-70
+		ADDED from C:\Users\q\Desktop\Contact\app\src\main\AndroidManifest.xml:7:22-70
 uses-permission#android.permission.GET_ACCOUNTS
-ADDED from C:\Users\q\Documents\GitHub\Project1_StartAndroidStudio\Contact\app\src\main\AndroidManifest.xml:8:5-71
+ADDED from C:\Users\q\Desktop\Contact\app\src\main\AndroidManifest.xml:8:5-71
 	android:name
-		ADDED from C:\Users\q\Documents\GitHub\Project1_StartAndroidStudio\Contact\app\src\main\AndroidManifest.xml:8:22-68
+		ADDED from C:\Users\q\Desktop\Contact\app\src\main\AndroidManifest.xml:8:22-68
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from C:\Users\q\Documents\GitHub\Project1_StartAndroidStudio\Contact\app\src\main\AndroidManifest.xml:9:5-81
+ADDED from C:\Users\q\Desktop\Contact\app\src\main\AndroidManifest.xml:9:5-81
 	android:name
-		ADDED from C:\Users\q\Documents\GitHub\Project1_StartAndroidStudio\Contact\app\src\main\AndroidManifest.xml:9:22-78
+		ADDED from C:\Users\q\Desktop\Contact\app\src\main\AndroidManifest.xml:9:22-78
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from C:\Users\q\Documents\GitHub\Project1_StartAndroidStudio\Contact\app\src\main\AndroidManifest.xml:10:5-80
+ADDED from C:\Users\q\Desktop\Contact\app\src\main\AndroidManifest.xml:10:5-80
 	android:name
-		ADDED from C:\Users\q\Documents\GitHub\Project1_StartAndroidStudio\Contact\app\src\main\AndroidManifest.xml:10:22-77
+		ADDED from C:\Users\q\Desktop\Contact\app\src\main\AndroidManifest.xml:10:22-77
 permission#com.example.q.contactpractice.permission.MAPS_RECEIVE
-ADDED from C:\Users\q\Documents\GitHub\Project1_StartAndroidStudio\Contact\app\src\main\AndroidManifest.xml:11:5-123
+ADDED from C:\Users\q\Desktop\Contact\app\src\main\AndroidManifest.xml:11:5-123
 	android:protectionLevel
-		ADDED from C:\Users\q\Documents\GitHub\Project1_StartAndroidStudio\Contact\app\src\main\AndroidManifest.xml:11:17-52
+		ADDED from C:\Users\q\Desktop\Contact\app\src\main\AndroidManifest.xml:11:17-52
 	android:name
-		ADDED from C:\Users\q\Documents\GitHub\Project1_StartAndroidStudio\Contact\app\src\main\AndroidManifest.xml:11:53-121
+		ADDED from C:\Users\q\Desktop\Contact\app\src\main\AndroidManifest.xml:11:53-121
 uses-permission#com.example.q.contactpractice.permission.MAPS_RECEIVE
-ADDED from C:\Users\q\Documents\GitHub\Project1_StartAndroidStudio\Contact\app\src\main\AndroidManifest.xml:12:5-92
+ADDED from C:\Users\q\Desktop\Contact\app\src\main\AndroidManifest.xml:12:5-92
 	android:name
-		ADDED from C:\Users\q\Documents\GitHub\Project1_StartAndroidStudio\Contact\app\src\main\AndroidManifest.xml:12:22-90
+		ADDED from C:\Users\q\Desktop\Contact\app\src\main\AndroidManifest.xml:12:22-90
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\q\Documents\GitHub\Project1_StartAndroidStudio\Contact\app\src\main\AndroidManifest.xml:13:5-66
+ADDED from C:\Users\q\Desktop\Contact\app\src\main\AndroidManifest.xml:13:5-66
 MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\q\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\2694f39c55c700eb83ea6fe5fab52167\AndroidManifest.xml:24:5-67
 MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\q\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\2694f39c55c700eb83ea6fe5fab52167\AndroidManifest.xml:24:5-67
 	android:name
-		ADDED from C:\Users\q\Documents\GitHub\Project1_StartAndroidStudio\Contact\app\src\main\AndroidManifest.xml:13:22-64
+		ADDED from C:\Users\q\Desktop\Contact\app\src\main\AndroidManifest.xml:13:22-64
 uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
-ADDED from C:\Users\q\Documents\GitHub\Project1_StartAndroidStudio\Contact\app\src\main\AndroidManifest.xml:14:5-97
+ADDED from C:\Users\q\Desktop\Contact\app\src\main\AndroidManifest.xml:14:5-97
 	android:name
-		ADDED from C:\Users\q\Documents\GitHub\Project1_StartAndroidStudio\Contact\app\src\main\AndroidManifest.xml:14:22-95
+		ADDED from C:\Users\q\Desktop\Contact\app\src\main\AndroidManifest.xml:14:22-95
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from C:\Users\q\Documents\GitHub\Project1_StartAndroidStudio\Contact\app\src\main\AndroidManifest.xml:15:5-78
+ADDED from C:\Users\q\Desktop\Contact\app\src\main\AndroidManifest.xml:15:5-78
 	android:name
-		ADDED from C:\Users\q\Documents\GitHub\Project1_StartAndroidStudio\Contact\app\src\main\AndroidManifest.xml:15:22-76
+		ADDED from C:\Users\q\Desktop\Contact\app\src\main\AndroidManifest.xml:15:22-76
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from C:\Users\q\Documents\GitHub\Project1_StartAndroidStudio\Contact\app\src\main\AndroidManifest.xml:16:5-80
+ADDED from C:\Users\q\Desktop\Contact\app\src\main\AndroidManifest.xml:16:5-80
 	android:name
-		ADDED from C:\Users\q\Documents\GitHub\Project1_StartAndroidStudio\Contact\app\src\main\AndroidManifest.xml:16:22-78
+		ADDED from C:\Users\q\Desktop\Contact\app\src\main\AndroidManifest.xml:16:22-78
 uses-feature#0x00020000
-ADDED from C:\Users\q\Documents\GitHub\Project1_StartAndroidStudio\Contact\app\src\main\AndroidManifest.xml:17:5-77
+ADDED from C:\Users\q\Desktop\Contact\app\src\main\AndroidManifest.xml:17:5-77
 MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\q\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\2694f39c55c700eb83ea6fe5fab52167\AndroidManifest.xml:26:5-28:35
 MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\q\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\2694f39c55c700eb83ea6fe5fab52167\AndroidManifest.xml:26:5-28:35
 	android:glEsVersion
-		ADDED from C:\Users\q\Documents\GitHub\Project1_StartAndroidStudio\Contact\app\src\main\AndroidManifest.xml:17:43-75
+		ADDED from C:\Users\q\Desktop\Contact\app\src\main\AndroidManifest.xml:17:43-75
 	android:required
-		ADDED from C:\Users\q\Documents\GitHub\Project1_StartAndroidStudio\Contact\app\src\main\AndroidManifest.xml:17:19-42
+		ADDED from C:\Users\q\Desktop\Contact\app\src\main\AndroidManifest.xml:17:19-42
 application
-ADDED from C:\Users\q\Documents\GitHub\Project1_StartAndroidStudio\Contact\app\src\main\AndroidManifest.xml:19:5-53:19
+ADDED from C:\Users\q\Desktop\Contact\app\src\main\AndroidManifest.xml:19:5-53:19
 MERGED from [com.android.support:mediarouter-v7:26.0.0-alpha1] C:\Users\q\.gradle\caches\transforms-1\files-1.1\mediarouter-v7-26.0.0-alpha1.aar\b0f20e10c1e210c464329b4b71194363\AndroidManifest.xml:26:5-20
 MERGED from [com.android.support:mediarouter-v7:26.0.0-alpha1] C:\Users\q\.gradle\caches\transforms-1\files-1.1\mediarouter-v7-26.0.0-alpha1.aar\b0f20e10c1e210c464329b4b71194363\AndroidManifest.xml:26:5-20
 MERGED from [com.android.support:design:26.0.0-alpha1] C:\Users\q\.gradle\caches\transforms-1\files-1.1\design-26.0.0-alpha1.aar\be35380121278395d8220464a5ae76fb\AndroidManifest.xml:29:5-20
@@ -151,77 +151,77 @@ MERGED from [com.android.support:support-compat:26.1.0] C:\Users\q\.gradle\cache
 MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\q\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\70f7663ed421746fb168a9b3ae6649c7\AndroidManifest.xml:24:5-28:19
 MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\q\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\70f7663ed421746fb168a9b3ae6649c7\AndroidManifest.xml:24:5-28:19
 	android:supportsRtl
-		ADDED from C:\Users\q\Documents\GitHub\Project1_StartAndroidStudio\Contact\app\src\main\AndroidManifest.xml:24:9-35
+		ADDED from C:\Users\q\Desktop\Contact\app\src\main\AndroidManifest.xml:24:9-35
 	android:label
-		ADDED from C:\Users\q\Documents\GitHub\Project1_StartAndroidStudio\Contact\app\src\main\AndroidManifest.xml:22:9-41
+		ADDED from C:\Users\q\Desktop\Contact\app\src\main\AndroidManifest.xml:22:9-41
 	android:roundIcon
-		ADDED from C:\Users\q\Documents\GitHub\Project1_StartAndroidStudio\Contact\app\src\main\AndroidManifest.xml:23:9-54
+		ADDED from C:\Users\q\Desktop\Contact\app\src\main\AndroidManifest.xml:23:9-54
 	android:icon
-		ADDED from C:\Users\q\Documents\GitHub\Project1_StartAndroidStudio\Contact\app\src\main\AndroidManifest.xml:21:9-43
+		ADDED from C:\Users\q\Desktop\Contact\app\src\main\AndroidManifest.xml:21:9-43
 	android:allowBackup
-		ADDED from C:\Users\q\Documents\GitHub\Project1_StartAndroidStudio\Contact\app\src\main\AndroidManifest.xml:20:9-35
+		ADDED from C:\Users\q\Desktop\Contact\app\src\main\AndroidManifest.xml:20:9-35
 	android:theme
-		ADDED from C:\Users\q\Documents\GitHub\Project1_StartAndroidStudio\Contact\app\src\main\AndroidManifest.xml:25:9-40
+		ADDED from C:\Users\q\Desktop\Contact\app\src\main\AndroidManifest.xml:25:9-40
 uses-library#com.google.android.maps
-ADDED from C:\Users\q\Documents\GitHub\Project1_StartAndroidStudio\Contact\app\src\main\AndroidManifest.xml:27:9-63
+ADDED from C:\Users\q\Desktop\Contact\app\src\main\AndroidManifest.xml:27:9-63
 	android:name
-		ADDED from C:\Users\q\Documents\GitHub\Project1_StartAndroidStudio\Contact\app\src\main\AndroidManifest.xml:27:23-61
+		ADDED from C:\Users\q\Desktop\Contact\app\src\main\AndroidManifest.xml:27:23-61
 meta-data#com.google.android.maps.v2.API_KEY
-ADDED from C:\Users\q\Documents\GitHub\Project1_StartAndroidStudio\Contact\app\src\main\AndroidManifest.xml:28:9-127
+ADDED from C:\Users\q\Desktop\Contact\app\src\main\AndroidManifest.xml:28:9-127
 	android:value
-		ADDED from C:\Users\q\Documents\GitHub\Project1_StartAndroidStudio\Contact\app\src\main\AndroidManifest.xml:28:70-125
+		ADDED from C:\Users\q\Desktop\Contact\app\src\main\AndroidManifest.xml:28:70-125
 	android:name
-		ADDED from C:\Users\q\Documents\GitHub\Project1_StartAndroidStudio\Contact\app\src\main\AndroidManifest.xml:28:20-69
+		ADDED from C:\Users\q\Desktop\Contact\app\src\main\AndroidManifest.xml:28:20-69
 meta-data#com.google.android.gms.version
-ADDED from C:\Users\q\Documents\GitHub\Project1_StartAndroidStudio\Contact\app\src\main\AndroidManifest.xml:29:9-121
+ADDED from C:\Users\q\Desktop\Contact\app\src\main\AndroidManifest.xml:29:9-121
 MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\q\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\7ea142fc37a9e64d88ca904d6e591477\AndroidManifest.xml:23:9-25:69
 MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\q\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\7ea142fc37a9e64d88ca904d6e591477\AndroidManifest.xml:23:9-25:69
 	android:value
-		ADDED from C:\Users\q\Documents\GitHub\Project1_StartAndroidStudio\Contact\app\src\main\AndroidManifest.xml:29:66-119
+		ADDED from C:\Users\q\Desktop\Contact\app\src\main\AndroidManifest.xml:29:66-119
 	android:name
-		ADDED from C:\Users\q\Documents\GitHub\Project1_StartAndroidStudio\Contact\app\src\main\AndroidManifest.xml:29:20-65
+		ADDED from C:\Users\q\Desktop\Contact\app\src\main\AndroidManifest.xml:29:20-65
 activity#com.example.q.contactpractice.MainActivity
-ADDED from C:\Users\q\Documents\GitHub\Project1_StartAndroidStudio\Contact\app\src\main\AndroidManifest.xml:32:9-36:20
+ADDED from C:\Users\q\Desktop\Contact\app\src\main\AndroidManifest.xml:32:9-36:20
 	android:theme
-		ADDED from C:\Users\q\Documents\GitHub\Project1_StartAndroidStudio\Contact\app\src\main\AndroidManifest.xml:34:13-69
+		ADDED from C:\Users\q\Desktop\Contact\app\src\main\AndroidManifest.xml:34:13-69
 	android:name
-		ADDED from C:\Users\q\Documents\GitHub\Project1_StartAndroidStudio\Contact\app\src\main\AndroidManifest.xml:33:13-41
+		ADDED from C:\Users\q\Desktop\Contact\app\src\main\AndroidManifest.xml:33:13-41
 activity#com.example.q.contactpractice.MainActivity2
-ADDED from C:\Users\q\Documents\GitHub\Project1_StartAndroidStudio\Contact\app\src\main\AndroidManifest.xml:37:9-39:81
+ADDED from C:\Users\q\Desktop\Contact\app\src\main\AndroidManifest.xml:37:9-39:81
 	android:theme
-		ADDED from C:\Users\q\Documents\GitHub\Project1_StartAndroidStudio\Contact\app\src\main\AndroidManifest.xml:39:13-69
+		ADDED from C:\Users\q\Desktop\Contact\app\src\main\AndroidManifest.xml:39:13-69
 	android:name
-		ADDED from C:\Users\q\Documents\GitHub\Project1_StartAndroidStudio\Contact\app\src\main\AndroidManifest.xml:38:13-42
+		ADDED from C:\Users\q\Desktop\Contact\app\src\main\AndroidManifest.xml:38:13-42
 activity#com.example.q.contactpractice.MainActivity3
-ADDED from C:\Users\q\Documents\GitHub\Project1_StartAndroidStudio\Contact\app\src\main\AndroidManifest.xml:40:9-42:81
+ADDED from C:\Users\q\Desktop\Contact\app\src\main\AndroidManifest.xml:40:9-42:81
 	android:theme
-		ADDED from C:\Users\q\Documents\GitHub\Project1_StartAndroidStudio\Contact\app\src\main\AndroidManifest.xml:42:13-69
+		ADDED from C:\Users\q\Desktop\Contact\app\src\main\AndroidManifest.xml:42:13-69
 	android:name
-		ADDED from C:\Users\q\Documents\GitHub\Project1_StartAndroidStudio\Contact\app\src\main\AndroidManifest.xml:41:13-42
+		ADDED from C:\Users\q\Desktop\Contact\app\src\main\AndroidManifest.xml:41:13-42
 activity#com.example.q.contactpractice.FullImageActivity
-ADDED from C:\Users\q\Documents\GitHub\Project1_StartAndroidStudio\Contact\app\src\main\AndroidManifest.xml:43:9-55
+ADDED from C:\Users\q\Desktop\Contact\app\src\main\AndroidManifest.xml:43:9-55
 	android:name
-		ADDED from C:\Users\q\Documents\GitHub\Project1_StartAndroidStudio\Contact\app\src\main\AndroidManifest.xml:43:19-52
+		ADDED from C:\Users\q\Desktop\Contact\app\src\main\AndroidManifest.xml:43:19-52
 activity#com.example.q.contactpractice.LoadingActivity
-ADDED from C:\Users\q\Documents\GitHub\Project1_StartAndroidStudio\Contact\app\src\main\AndroidManifest.xml:44:9-52:20
+ADDED from C:\Users\q\Desktop\Contact\app\src\main\AndroidManifest.xml:44:9-52:20
 	android:theme
-		ADDED from C:\Users\q\Documents\GitHub\Project1_StartAndroidStudio\Contact\app\src\main\AndroidManifest.xml:46:13-69
+		ADDED from C:\Users\q\Desktop\Contact\app\src\main\AndroidManifest.xml:46:13-69
 	android:name
-		ADDED from C:\Users\q\Documents\GitHub\Project1_StartAndroidStudio\Contact\app\src\main\AndroidManifest.xml:45:13-44
+		ADDED from C:\Users\q\Desktop\Contact\app\src\main\AndroidManifest.xml:45:13-44
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\q\Documents\GitHub\Project1_StartAndroidStudio\Contact\app\src\main\AndroidManifest.xml:47:13-51:29
+ADDED from C:\Users\q\Desktop\Contact\app\src\main\AndroidManifest.xml:47:13-51:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\q\Documents\GitHub\Project1_StartAndroidStudio\Contact\app\src\main\AndroidManifest.xml:48:17-69
+ADDED from C:\Users\q\Desktop\Contact\app\src\main\AndroidManifest.xml:48:17-69
 	android:name
-		ADDED from C:\Users\q\Documents\GitHub\Project1_StartAndroidStudio\Contact\app\src\main\AndroidManifest.xml:48:25-66
+		ADDED from C:\Users\q\Desktop\Contact\app\src\main\AndroidManifest.xml:48:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\q\Documents\GitHub\Project1_StartAndroidStudio\Contact\app\src\main\AndroidManifest.xml:50:17-77
+ADDED from C:\Users\q\Desktop\Contact\app\src\main\AndroidManifest.xml:50:17-77
 	android:name
-		ADDED from C:\Users\q\Documents\GitHub\Project1_StartAndroidStudio\Contact\app\src\main\AndroidManifest.xml:50:27-74
+		ADDED from C:\Users\q\Desktop\Contact\app\src\main\AndroidManifest.xml:50:27-74
 uses-sdk
-INJECTED from C:\Users\q\Documents\GitHub\Project1_StartAndroidStudio\Contact\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\q\Documents\GitHub\Project1_StartAndroidStudio\Contact\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\q\Documents\GitHub\Project1_StartAndroidStudio\Contact\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\q\Desktop\Contact\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\q\Desktop\Contact\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\q\Desktop\Contact\app\src\main\AndroidManifest.xml
 MERGED from [com.android.support:mediarouter-v7:26.0.0-alpha1] C:\Users\q\.gradle\caches\transforms-1\files-1.1\mediarouter-v7-26.0.0-alpha1.aar\b0f20e10c1e210c464329b4b71194363\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:mediarouter-v7:26.0.0-alpha1] C:\Users\q\.gradle\caches\transforms-1\files-1.1\mediarouter-v7-26.0.0-alpha1.aar\b0f20e10c1e210c464329b4b71194363\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:design:26.0.0-alpha1] C:\Users\q\.gradle\caches\transforms-1\files-1.1\design-26.0.0-alpha1.aar\be35380121278395d8220464a5ae76fb\AndroidManifest.xml:21:5-23:62
@@ -268,18 +268,18 @@ MERGED from [com.android.support:support-compat:26.1.0] C:\Users\q\.gradle\cache
 MERGED from [com.android.support:support-compat:26.1.0] C:\Users\q\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\48a9fc1fae4d094961194006950f8f64\AndroidManifest.xml:21:5-23:58
 MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\q\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\70f7663ed421746fb168a9b3ae6649c7\AndroidManifest.xml:20:5-22:41
 MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\q\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\70f7663ed421746fb168a9b3ae6649c7\AndroidManifest.xml:20:5-22:41
-INJECTED from C:\Users\q\Documents\GitHub\Project1_StartAndroidStudio\Contact\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\q\Documents\GitHub\Project1_StartAndroidStudio\Contact\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\q\Desktop\Contact\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\q\Desktop\Contact\app\src\main\AndroidManifest.xml
 	tools:overrideLibrary
 		ADDED from [com.android.support:design:26.0.0-alpha1] C:\Users\q\.gradle\caches\transforms-1\files-1.1\design-26.0.0-alpha1.aar\be35380121278395d8220464a5ae76fb\AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
-		INJECTED from C:\Users\q\Documents\GitHub\Project1_StartAndroidStudio\Contact\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\q\Documents\GitHub\Project1_StartAndroidStudio\Contact\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\q\Documents\GitHub\Project1_StartAndroidStudio\Contact\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\q\Desktop\Contact\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\q\Desktop\Contact\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\q\Desktop\Contact\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\q\Documents\GitHub\Project1_StartAndroidStudio\Contact\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\q\Documents\GitHub\Project1_StartAndroidStudio\Contact\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\q\Documents\GitHub\Project1_StartAndroidStudio\Contact\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\q\Desktop\Contact\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\q\Desktop\Contact\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\q\Desktop\Contact\app\src\main\AndroidManifest.xml
 meta-data#android.support.VERSION
 ADDED from [com.android.support:mediarouter-v7:26.0.0-alpha1] C:\Users\q\.gradle\caches\transforms-1\files-1.1\mediarouter-v7-26.0.0-alpha1.aar\b0f20e10c1e210c464329b4b71194363\AndroidManifest.xml:22:5-24:41
 MERGED from [com.android.support:design:26.0.0-alpha1] C:\Users\q\.gradle\caches\transforms-1\files-1.1\design-26.0.0-alpha1.aar\be35380121278395d8220464a5ae76fb\AndroidManifest.xml:25:5-27:41

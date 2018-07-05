@@ -1,9 +1,15 @@
 package com.example.q.contactpractice;
 
 import android.Manifest;
+import android.content.ContentUris;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.database.Cursor;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+import android.graphics.drawable.BitmapDrawable;
+import android.graphics.drawable.Drawable;
+import android.net.Uri;
 import android.os.Bundle;
 import android.provider.ContactsContract;
 import android.support.annotation.NonNull;
@@ -11,19 +17,26 @@ import android.support.design.widget.BottomNavigationView;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Base64;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.SimpleAdapter;
 import android.widget.Toast;
 
+import java.io.ByteArrayOutputStream;
+import java.io.InputStream;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 public class MainActivity extends AppCompatActivity implements BottomNavigationView.OnNavigationItemSelectedListener{
 
     protected BottomNavigationView navigationView;
-
+    private ArrayList<Bitmap> photoList;
     private ArrayList<Map<String, String>> dataList;
     private ListView mListview;
     static final int MY_PERMISSIONS_REQUEST_READ_CONTACTS = 1;
@@ -108,6 +121,8 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
 
     public void contact(){
         dataList = new ArrayList<Map<String, String>>();
+        photoList = new ArrayList<Bitmap>();
+        Bitmap bitmapdraw=(Bitmap) BitmapFactory.decodeResource(getResources(), R.drawable.basicphoto);
         Cursor c = getContentResolver().query(
                 ContactsContract.Contacts.CONTENT_URI,
                 null,
@@ -122,6 +137,18 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
             // 연락처 대표 이름
             String name = c.getString(c.getColumnIndex(ContactsContract.Contacts.DISPLAY_NAME_PRIMARY));
             map.put("name", name);
+
+            //photo 가져오기
+            InputStream photoDataStream = ContactsContract.Contacts.openContactPhotoInputStream(getContentResolver(),
+                    ContentUris.withAppendedId(ContactsContract.Contacts.CONTENT_URI, new Long(id)));
+
+
+            Bitmap photo2 = BitmapFactory.decodeStream(photoDataStream);
+            if (photo2!=null){
+            photoList.add(photo2);
+            }else{
+                photoList.add(bitmapdraw);
+            }
 
             // ID로 전화 정보 조회
             Cursor phoneCursor = getContentResolver().query(
@@ -142,16 +169,40 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
         }// end while
         c.close();
 
-
+/*
         SimpleAdapter adapter = new SimpleAdapter(getApplicationContext(),
                 dataList,
                 android.R.layout.simple_list_item_2,
                 new String[]{"name", "phone"},
                 new int[]{android.R.id.text1, android.R.id.text2});
         mListview.setAdapter(adapter);
+*/
+
+        //변수 초기화
+        ListViewAdapter custom_adapter = new ListViewAdapter();
+        //어뎁터 할당
+        mListview.setAdapter(custom_adapter);
+
+        //adapter를 통한 값 전달
+        for(int i=0; i<dataList.size();i++){
+            Map<String, String> onerow= (Map) dataList.get(i);
+            custom_adapter.addVO(photoList.get(i),onerow.get("name"),onerow.get("phone"));
+        }
+//////////////////////////////////////////////////////////////////////
+        /*클릭리스너는 어댑터에 넣었어요!
+        mListview.setOnItemClickListener((parent, view, position, id) -> {
+            String mNum;
+            HashMap<String, String> map2;
+            map2 = (HashMap<String, String>) dataList.get(position);
+            mNum = map2.get("phone");
+            String tel = "tel:" + mNum;
+
+            Intent intent = new Intent(Intent.ACTION_DIAL);
+            intent.setData(Uri.parse(tel));
+            startActivity(intent);
+        });*/
 
     }
-
 
 
     private void updateNavigationBarState(){
